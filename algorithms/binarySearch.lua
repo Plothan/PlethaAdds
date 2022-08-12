@@ -1,3 +1,11 @@
+--[[
+    Binary search is a fast searching algorithm that is used for sorted arrays.
+
+    Combined with a fast sorting algorithm, it will be fast as heck.
+
+]]
+
+
 local function binarySearch(array,target, start, endi)
 
     if start > endi then
